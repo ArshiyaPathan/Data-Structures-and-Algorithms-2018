@@ -1,5 +1,13 @@
-//Using SET
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 
+//Using SET
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
