@@ -3,7 +3,7 @@
 */
 int firstDuplicate(std::vector<int> a) {
     
-    if(a.size())
+
     for(int i=0;i<a.size();i++){
         if(a[abs(a[i])-1] >0)
             a[abs(a[i])-1] *= -1;
